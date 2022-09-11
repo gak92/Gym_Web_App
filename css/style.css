@@ -37,6 +37,12 @@ body {
   position: absolute;
   left: 40px;
   top: 10px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.left:hover {
+  transform: scale(1.2);
 }
 
 .left img {
